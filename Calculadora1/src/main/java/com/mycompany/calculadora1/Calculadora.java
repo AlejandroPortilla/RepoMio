@@ -345,8 +345,8 @@ public class Calculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        if (!(this.pantalla.getText().contains(","))) {
-            this.pantalla.setText(this.pantalla.getText()+ ",");
+        if (!(this.pantalla.getText().contains("."))) {
+            this.pantalla.setText(this.pantalla.getText()+ ".");
         }
     }//GEN-LAST:event_jButton19ActionPerformed
 
